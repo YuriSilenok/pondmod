@@ -35,6 +35,25 @@
   margin: 1px 4px 0 0;
 }
 
+#editorBar > .tab:nth-child(2) {
+  display: none;
+}
+
+#saveButton {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 2px 2px 0 0;
+  color: #333;
+  cursor: pointer;
+  float: left;
+  margin: 1px 4px 0 0;
+  padding: 4px 8px;
+}
+
+#saveButton:hover {
+  background: #eee;
+}
+
 /* State: Hover */
 .tab:hover {
   background: #eee;
